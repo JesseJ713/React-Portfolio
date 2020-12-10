@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
 
 export default function Navbar() {
   return (
@@ -36,6 +37,31 @@ export default function Navbar() {
             About Me!
           </NavLink>
         </nav>
+        <div className="inline-flex py-3 px-3 my-6">
+          <SocialIcon
+            url="https://github.com/JesseJ713"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            bgColor="#000"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="https://www.linkedin.com/in/jesse-jackson-atx/"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="mailto:jesse.jackson.c@gmail.com"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            bgColor="#000"
+            style={{ height: 35, width: 35 }}
+          />
+        </div>
       </div>
     </header>
   );
