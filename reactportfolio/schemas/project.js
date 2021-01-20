@@ -45,6 +45,7 @@ export default {
     },
     {
       name: "repo",
+      title: "Repo",
       type: "url",
     },
     {
