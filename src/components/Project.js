@@ -14,6 +14,7 @@ export default function Project() {
       description,
       projectType,
       link,
+      repo,
       tags
     }`
       )
