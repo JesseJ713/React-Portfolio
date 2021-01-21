@@ -11,6 +11,12 @@ export default function Project() {
       title,
       date,
       place,
+      mainImage{
+        asset->{
+          _id,
+          url
+        }
+      },
       description,
       projectType,
       link,
@@ -35,6 +41,11 @@ export default function Project() {
           {projectData &&
             projectData.map((project, index) => (
               <article className="relative rounded-lg shadow-xl bg-white p-16">
+                {/* <img
+                  src={project.mainImage.asset.url}
+                  alt={project.mainImage.alt}
+                  className="w-full h-full rounded-r object-cover absolute"
+                /> */}
                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}
@@ -68,6 +79,17 @@ export default function Project() {
                     className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
                   >
                     View The Project{" "}
+                    <span role="img" aria-label="right pointer">
+                      👉
+                    </span>
+                  </a>
+                  <a
+                    href={project.repo}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
+                  >
+                    View The Repo{" "}
                     <span role="img" aria-label="right pointer">
                       👉
                     </span>
