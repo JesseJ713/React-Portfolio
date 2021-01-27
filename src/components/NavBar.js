@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
@@ -67,6 +66,7 @@ export default function Navbar() {
           <a
             href="https://drive.google.com/file/d/1ihVEum_hvUqYPEJ1scYEB6qQgndzPYL5/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon
               icon={faFilePdf}
