@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<h1 align="center">React Portfolio</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://jesse-jackson-react-portfolio.netlify.app/](https://jesse-jackson-react-portfolio.netlify.app/)
 
-## Available Scripts
+## DESCRIPTION
 
-In the project directory, you can run:
+This is a one stop shop to showcase skills, projects, and history within a portfolio setting.
 
-### `npm start`
+## TABLE OF CONTENTS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Installation](#installation) <br>
+[License](#license) <br>
+[Contributor](#contributor) <br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## INSTALLATION
 
-### `npm test`
+It is preferred that the deployed version should be visited, but if a local version should be inquired; please follow the steps below
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Clone the Repository
 
-### `npm run build`
+Navigate to the [React-Portfolio Repository](https://github.com/JesseJ713/React-Portfolio). Copy the SSH connection from Github. Clone the repository onto your machine from your terminal using:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    git clone git@github.com:JesseJ713/React-Portfolio.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will create the Note-Wall directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Install Dependencies
 
-### `npm run eject`
+In your terminal, navigate into the Surveasy directory. To install all required dependencies, use:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will install all dependencies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##### Running the application
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Use the start script from the Surveasy directory to run the application:
 
-## Learn More
+    npm run start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In a dev environment, this will run the application on _localhost:3000_.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## TECHNOLOGIES USED
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [React.js](https://reactjs.org/) - Front-End JavaScript library
+* [Express.js](https://expressjs.com/) - Node.js framework 
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime
+* [Tailwindcss](https://tailwindcss.com/) - CSS framework
+* [Sanity.io](https://www.sanity.io/) - Real Time CMS for JavaScript and React
 
-### Analyzing the Bundle Size
+## LICENSE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Making a Progressive Web App
+## Contributor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##### Jesse Jackson
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://github.com/JesseJ713">![Profile Image](https://github.com/JesseJ713.png?size=50)</a>
+<a href="https://www.linkedin.com/in/jesse-jackson-atx/">![Badge](https://img.shields.io/badge/LinkedIn--3480eb)</a> <a href="https://github.com/JesseJ713">![Badge](https://img.shields.io/badge/Github--40c256)</a>
