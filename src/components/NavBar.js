@@ -64,7 +64,7 @@ export default function Navbar() {
             style={{ height: 35, width: 35 }}
           />
           <a
-            href="https://docs.google.com/document/d/1OAcNqShun2ll-cHmemCxcgJuECvqdQ0V/edit"
+            href="https://drive.google.com/file/d/1OAcNqShun2ll-cHmemCxcgJuECvqdQ0V/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
